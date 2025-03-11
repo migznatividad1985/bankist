@@ -1,0 +1,19 @@
+{
+  "name": "bankist",
+  "version": "1.0.0",
+  "description": "Banking meets with minimalist",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Michael Natividad",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "svgo": "^3.3.2"
+  },
+  "dependencies": {
+    "core-js": "^3.41.0",
+    "regenerator-runtime": "^0.14.1"
+  }
+}
