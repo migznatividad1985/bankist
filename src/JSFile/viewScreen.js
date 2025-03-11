@@ -193,7 +193,9 @@ class viewScreen {
           >
           <div class="operations__icon operations__icon--${state.code}">
             <svg>
-              <use xlink:href="src/img/icons.svg#${svgIcon(state.code)}"></use>
+              <use xlink:href="./src/img/icons.svg#${svgIcon(
+                state.code
+              )}"></use>
             </svg>
           </div>
           <h5 class="operations__header">

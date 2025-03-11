@@ -19,7 +19,7 @@ class SliderView {
                 ${testimonial.testimonial}
               </blockquote>
               <address class="testimonial__author">
-                <img src="src/img/user-${
+                <img src="./src/img/user-${
                   index + 1
                 }.jpg" alt="" class="testimonial__photo" />
                 <h6 class="testimonial__name">${testimonial.author}</h6>
